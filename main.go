@@ -1,8 +1,8 @@
 package main
 
 import (
-	"./form"
 	"github.com/ying32/govcl/vcl"
+	"govcl-template/form"
 )
 
 func main() {
