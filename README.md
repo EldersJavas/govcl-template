@@ -2,6 +2,8 @@
 
 govcl template repo
 
+govcl repo: https://github.com/ying32/govcl
+
 适配`Go 1.17`以上版本.
 ## How to use
 
