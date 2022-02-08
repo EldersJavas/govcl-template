@@ -4,5 +4,6 @@ object Mainform: TMainform
   Top = 279
   Width = 320
   Caption = 'Mainform'
+  OnCreate = FormCreate
   LCLVersion = '2.0.10.0'
 end

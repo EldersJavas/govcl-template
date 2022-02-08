@@ -8,7 +8,11 @@ uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs;
 
 type
+
+  { TMainform }
+
   TMainform = class(TForm)
+    procedure FormCreate(Sender: TObject);
   private
 
   public
@@ -21,6 +25,13 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TMainform }
+
+procedure TMainform.FormCreate(Sender: TObject);
+begin
+
+end;
 
 end.
 

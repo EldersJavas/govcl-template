@@ -17,7 +17,6 @@
     <Res2go>
       <Enabled Value="True"/>
       <OutputPath Value=".."/>
-      <UseOriginalFileName Value="True"/>
       <PackageName Value="form"/>
       <GoBuildMode Value="exe"/>
       <GoUseEmbed Value="True"/>
@@ -52,6 +51,7 @@
         <Filename Value="mainform.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Mainform"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Mainform"/>
         <IsVisibleTab Value="True"/>

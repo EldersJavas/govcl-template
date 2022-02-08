@@ -25,7 +25,7 @@ func NewMainform(owner vcl.IComponent) (root *TMainform)  {
     return
 }
 
-//go:embed resources/mainform.gfm
+//go:embed resources/Mainform.gfm
 var mainformBytes []byte
 
 // 注册Form资源  
