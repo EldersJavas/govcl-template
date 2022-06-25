@@ -12,4 +12,5 @@ func main() {
 	vcl.Application.SetMainFormOnTaskBar(true)
     vcl.Application.CreateForm(&form.Mainform)
 	vcl.Application.Run()
+	//vcl.RunApp()
 }
