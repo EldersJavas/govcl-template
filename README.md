@@ -5,7 +5,7 @@ govcl template repo
 govcl repo: <https://github.com/ying32/govcl>
 
 适配`Go 1.15`以上版本.  
-CI构建使用`Go 1.17`.
+CI构建使用`Go 1.18`.
 ## How to use
 
 ### Go project ([go.mod](./go.mod))
@@ -22,7 +22,8 @@ CI构建使用`Go 1.17`.
 ### CI 构建 ([go-build.yml](./.github/workflows/go-build.yml))
 
 把`.github\workflows\go-build.yml`里面的所有`govcl-template`替换成自己的项目名.  
-自带忽略非代码文件和Artifacts.
+自带忽略非代码文件  
+和编译Artifacts.
 
 ### 本地构建
 
